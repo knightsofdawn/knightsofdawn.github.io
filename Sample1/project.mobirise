@@ -1,0 +1,493 @@
+{
+  "settings": {
+    "currentPage": "about.html",
+    "version": "1.9.7"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Truvision Studios",
+        "meta_descr": "Making Rejuvinating Memories!",
+        "header_custom": "<!-- Paste any valid HTML code here. The code will be inserted to the end of <head> section, right before </head> -->",
+        "footer_custom": "<!-- Paste any valid HTML code here. The code will be inserted to the end of <body> section, right before </body> -->"
+      },
+      "components": [
+        {
+          "_name": "menu",
+          "_anchor": "menu-13",
+          "_params": {
+            "logo": true,
+            "showBrand": true
+          },
+          "logo": "{PROJECT_IMAGES}logo.png",
+          "brand": "<a data-app-btn=\"true\" href=\"http://www.truvisionbhopal.com\" class=\"text-warning\">Truvision Studios</a>",
+          "items": "<ul class=\"nav nav-pills pull-right\"><li><a href=\"index.html\" data-app-btn=\"true\" class=\"mbr-menu-item text-warning\">HOME</a></li><li><a href=\"about.html\" data-app-btn=\"true\" class=\"mbr-menu-item text-warning\">ABOUT</a></li><li><a href=\"Contactus.html\" data-app-btn=\"true\" class=\"mbr-menu-item text-warning\">CONTACT</a></li></ul>"
+        },
+        {
+          "_inherit": "header1",
+          "_name": "header2",
+          "_anchor": "header2-7",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "{PROJECT_IMAGES}Dussehra%202013.gif",
+            "bgColor": "#a38f84",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/jfLgnRf_3uA?rel=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "contentAlign": "left",
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#6b6b6b",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "title": "TRUVISION STUDIOS",
+          "text": "The new age digital color labs and studios with cutting edge technologies in hand,<br>so you find it hard to not rejuvinate the most loved memories!",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://www.truvisionbhopal.com\" class=\"mbr-buttons__btn btn btn-lg btn-warning animated fadeInUp delay\" target=\"_blank\">SIGN IN</a>"
+        },
+        {
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-9",
+          "_params": {
+            "textAlign": "left",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "{PROJECT_IMAGES}bg3.jpg",
+            "bgColor": "#f97352",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "image": "{PROJECT_IMAGES}bmwz.gif",
+          "title": "WE ARE THE BEST IN THE BREED!!",
+          "text": "<p>We can make color prints from all the&nbsp;</p><p>Advanced Media available in the world.</p><p>Established in 1992 as a Studio/Lab in Bhopal, TRUVISION COLOR LAB started using Indian Machines for Processing and Developing Film Rolls.Now TRUVISION COLOR LAB uses the latest Technology Digitalizing and Photo Processing Machines of Japanese make which can print Photo sizes upto 12\" x 18\".</p><p>Look no further than TRUVISION COLOR LAB Colour Labs for a professional photographic printing service. With latest technology and know-how to give you the very best results, whether from digital or film.</p><p>&nbsp;</p><p>We are professional photographers and provide all types of photography services including high quality coverage for your events like weddings,birthday parties,</p><p>get-togethers, and other functions. We also provide printing services like high quality photo prints, custom photobooks, specialty photo products etc. We want to make the whole process convenient for you – our website has been created so that you can avail all our services from the comfort and convenience of your house.</p><p>&nbsp;</p><p>Look no further than TRUVISION COLOR LAB Colour Labs for a professional photographic printing service. With latest technology and know-how to give you the very best results, whether from digital or film.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-default\" href=\"about.html\">LEARN MORE</a>"
+        },
+        {
+          "image": "{PROJECT_IMAGES}iphone.png",
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-25",
+          "_params": {
+            "textAlign": "left",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "{PROJECT_IMAGES}bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "video": {
+              "url": "https://www.youtube.com/embed/jfLgnRf_3uA?rel=0&autoplay=0&loop=0",
+              "loop": false,
+              "autoplay": false,
+              "width": 1280,
+              "height": 720
+            },
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "VIDEO EMBED",
+          "text": "<p>Online video and Youtube particularly is now more popular than cable television. Truvision technologies provides a support for YouTube and Vimeo that allow you to liven up your sites.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-default\" href=\"about.html\">LEARN MORE</a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "{PROJECT_IMAGES}bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2015 Truvison Technologies. <a class=\"mbr-footer__link\" href=\"http://mobirise.com/\">Terms of Use</a>  | <a class=\"mbr-footer__link\" href=\"http://mobirise.com/\">Privacy Policy</a>"
+        }
+      ]
+    },
+    "about.html": {
+      "settings": {
+        "title": "About Truvision",
+        "meta_descr": "Truvision Studios"
+      },
+      "components": [
+        {
+          "_name": "menu",
+          "_anchor": "menu-24",
+          "_params": {
+            "logo": true,
+            "showBrand": true
+          },
+          "logo": "{PROJECT_IMAGES}logo.png",
+          "brand": "<a data-app-btn=\"true\" href=\"http://www.truvisionbhopal.com\" class=\"text-warning\">Truvision Studios</a>",
+          "items": "<ul class=\"nav nav-pills pull-right\"><li><a href=\"index.html\" data-app-btn=\"true\" class=\"mbr-menu-item text-warning\">HOME</a></li><li><a href=\"about.html\" data-app-btn=\"true\" class=\"mbr-menu-item text-warning\">ABOUT</a></li><li><a href=\"Contactus.html\" data-app-btn=\"true\" class=\"mbr-menu-item text-warning\">CONTACT</a></li></ul>"
+        },
+        {
+          "_inherit": "slider",
+          "_name": "slider2",
+          "_params": {
+            "slides": [
+              {
+                "active": false,
+                "image": "{PROJECT_IMAGES}1.gif",
+                "showTitle": false,
+                "title": "Slide 1",
+                "showText": false,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "{PROJECT_IMAGES}2.gif",
+                "showTitle": false,
+                "title": "Slide 2",
+                "showText": false,
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "{PROJECT_IMAGES}3.gif",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "{PROJECT_IMAGES}4.gif",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "{PROJECT_IMAGES}5.gif",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "{PROJECT_IMAGES}6.gif",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "{PROJECT_IMAGES}7.gif",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://mobirise.com\">FOR MAC</a>"
+              }
+            ]
+          },
+          "_anchor": "slider2-17",
+          "articleLayout": true
+        },
+        {
+          "_styles": {
+            ".caption h3": {
+              "color": "#fff"
+            },
+            "P": {
+              "color": "#fff"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-10",
+          "_params": {
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "{PROJECT_IMAGES}bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.6,
+            "overlayColor": "#28324e",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "About Us!",
+          "caption": "<p>We can make color prints from all the&nbsp;</p><p>Advanced Media available in the world.</p><p>Established in 1992 as a Studio/Lab in Bhopal, TRUVISION COLOR LAB started using Indian Machines for Processing and Developing Film Rolls.Now TRUVISION COLOR LAB uses the latest Technology Digitalizing and Photo Processing Machines of Japanese make which can print Photo sizes upto 12\" x 18\".</p><p>Look no further than TRUVISION COLOR LAB Colour Labs for a professional photographic printing service. With latest technology and know-how to give you the very best results, whether from digital or film.</p><p>&nbsp;</p><p>We are professional photographers and provide all types of photography services including high quality coverage for your events like weddings,birthday parties,</p><p>get-togethers, and other functions. We also provide printing services like high quality photo prints, custom photobooks, specialty photo products etc. We want to make the whole process convenient for you – our website has been created so that you can avail all our services from the comfort and convenience of your house.</p><p>&nbsp;</p><p>Look no further than TRUVISION COLOR LAB Colour Labs for a professional photographic printing service. With latest technology and know-how to give you the very best results, whether from digital or film.</p>"
+        },
+        {
+          "_name": "form2",
+          "_anchor": "form2-28",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "{PROJECT_IMAGES}bg3.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "SUBSCRIBE TO OUR NEWSLETTER",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">SUBSCRIBE</a>"
+        },
+        {
+          "text": "The Empire State Building was designed by William F. Lamb from the architectural firm Shreve, Lamb and Harmon.",
+          "_name": "map2",
+          "_anchor": "map2-11",
+          "_params": {
+            "address": "23.233090, 77.433872",
+            "info": "Truvision Digital Studios"
+          },
+          "coord": [
+            40.748384,
+            -73.9854792
+          ]
+        }
+      ]
+    },
+    "Contactus.html": {
+      "settings": {
+        "title": "Contact Us",
+        "meta_descr": "Contact"
+      },
+      "components": [
+        {
+          "_name": "menu",
+          "_anchor": "menu-29",
+          "_params": {
+            "logo": true,
+            "showBrand": true
+          },
+          "logo": "{PROJECT_IMAGES}logo.png",
+          "brand": "<a data-app-btn=\"true\" href=\"http://www.truvisionbhopal.com\" class=\"text-warning\">Truvision Studios</a>",
+          "items": "<ul class=\"nav nav-pills pull-right\"><li><a href=\"index.html\" data-app-btn=\"true\" class=\"mbr-menu-item text-warning\">HOME</a></li><li><a href=\"about.html\" data-app-btn=\"true\" class=\"mbr-menu-item text-warning\">ABOUT</a></li><li><a href=\"Contactus.html\" data-app-btn=\"true\" class=\"mbr-menu-item text-warning\">CONTACT</a></li></ul>"
+        },
+        {
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-26",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "{PROJECT_IMAGES}bg3.jpg",
+            "bgColor": "#f0f0f0",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "firstType": "green",
+            "secondType": "orange",
+            "thirdType": "favorite",
+            "fourthType": "blue"
+          },
+          "title1": "STANDARD",
+          "currency1": "$",
+          "price1": "0",
+          "period1": "per month",
+          "list1": "<ul><li><b>32 GB</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>15 GB</b> Bandwidth</li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"Contactus.html\" class=\"btn btn-success\">DEMO LINK</a>",
+          "title2": "BUSINESS",
+          "currency2": "$",
+          "price2": "0",
+          "period2": "per month",
+          "list2": "<ul><li><b>80 GB</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>20 GB</b> Bandwidth</li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"Contactus.html\" class=\"btn btn-success\">DEMO LINK</a>",
+          "title3": "PREMIUM",
+          "currency3": "$",
+          "price3": "0",
+          "period3": "per month",
+          "list3": "<ul><li><b>100 GB</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>50 GB</b> Bandwidth</li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"Contactus.html\" class=\"btn btn-success\">DEMO LINK</a>",
+          "title4": "ULTIMATE",
+          "currency4": "$",
+          "price4": "0",
+          "period4": "per month",
+          "list4": "<ul><li><b>Unlimited</b> Storage</li><li><b>Unlimited</b> Users</li><li><b>1TB GB</b> Bandwidth</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"Contactus.html\" class=\"btn btn-success\">DEMO LINK</a>"
+        },
+        {
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-14",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "{PROJECT_IMAGES}bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "counters": true,
+            "facebook": true,
+            "twitter": true,
+            "google": true
+          },
+          "text": "Contact Us On Social Media!"
+        },
+        {
+          "_name": "form1",
+          "_anchor": "form1-27",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "{PROJECT_IMAGES}bg3.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showName": true,
+            "showEmail": true,
+            "showPhone": true
+          },
+          "title": "CONTACT FORM",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">CONTACT US</a>"
+        },
+        {
+          "_name": "contacts2",
+          "_anchor": "contacts2-21",
+          "_params": {
+            "address": "23.233090, 77.433872",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "{PROJECT_IMAGES}bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "info": "Truvision Digital Studios"
+          },
+          "coord": [
+            40.748384,
+            -73.9854792
+          ],
+          "text1": "<strong>ADDRESS</strong><br>\nJyoti Shopping Center<br>M.P. Nagar, Zone - I<br>\nBhopal, Madhya Pradesh, India - 462023<br><br><strong style=\"line-height: 1.7em;\">CONTACTS</strong><br>\nEmail: support@truvisiostudos.com<br>\nPhone: +91 755 2471525<br>\nFax: +91 755 25657549",
+          "text2": "<p>Link</p><p>http://www.truvisionstudios.com</p><p></p><p class=\"mbr-contacts__text\"></p><ul class=\"mbr-contacts__list\"></ul><p></p>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-23",
+          "_params": {
+            "bgImageRadio": {
+              "type": "radio",
+              "title": "Background Image",
+              "name": "bgType",
+              "default": false
+            },
+            "parallax": {
+              "type": "switch",
+              "title": "Parallax",
+              "default": true,
+              "condition": [
+                "bgImageRadio"
+              ]
+            },
+            "bgImage": {
+              "type": "image",
+              "title": "",
+              "default": "{PROJECT_IMAGES}bg3.jpg",
+              "condition": [
+                "bgImageRadio"
+              ]
+            },
+            "bgColor": {
+              "type": "color",
+              "title": "Color",
+              "default": "#444444",
+              "condition": [
+                "bgColorRadio"
+              ]
+            },
+            "bgColorRadio": {
+              "type": "radio",
+              "title": "Background Color",
+              "name": "bgType",
+              "default": true
+            },
+            "overlay": {
+              "type": "switch",
+              "title": "Overlay",
+              "default": true,
+              "condition": [
+                "!bgColorRadio"
+              ]
+            },
+            "overlayOpacity": {
+              "type": "range",
+              "title": "Opacity",
+              "min": 0,
+              "max": 1,
+              "step": 0.1,
+              "default": 0.8,
+              "condition": [
+                "overlay",
+                "!bgColorRadio"
+              ]
+            },
+            "overlayColor": {
+              "type": "color",
+              "title": "Color",
+              "default": "#444444",
+              "condition": [
+                "overlay",
+                "!bgColorRadio"
+              ]
+            }
+          },
+          "text": "Copyright (c) 2015 Truvison Technologies. <a class=\"mbr-footer__link\" href=\"http://mobirise.com/\">Terms of Use</a>  | <a class=\"mbr-footer__link\" href=\"http://mobirise.com/\">Privacy Policy</a>"
+        }
+      ]
+    }
+  }
+}
